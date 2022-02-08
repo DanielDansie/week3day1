@@ -1,0 +1,29 @@
+html, body, div, head, h1, button, h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#header {
+    background-color: aquamarine;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+    position: fixed;
+}
+
+#header h3 {
+    float: left;
+    color: #fff;
+}
+
+#header a {
+    float: right;
+    color: #fff;
+    margin-right: 20px;
+}
+
+#contentbox {
+    padding-top: 100px;
+}
