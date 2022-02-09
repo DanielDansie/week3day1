@@ -4,8 +4,12 @@ html, body, div, head, h1, button, h3 {
     border: 0;
 }
 
+body {
+    background-color: rgb(183, 255, 231);
+}
+
 #header {
-    background-color: aquamarine;
+    background-color: navy;
     padding: 10px;
     text-align: center;
     font-size: 18px;
@@ -24,6 +28,37 @@ html, body, div, head, h1, button, h3 {
     margin-right: 20px;
 }
 
-#contentbox {
+#content {
     padding-top: 100px;
+    text-align: center;
+    clear: both;
+}
+
+#contentbox {
+    display: inline-block;
+    max-width: 1600px;
+}
+
+.info_box {
+    padding: 20px;
+    border: 1px square #000;
+    background-color: #fff;
+    margin-right: 25px;
+    margin-top: 25px;
+    text-align: center;
+    float: left;
+    border: 3px solid navy;
+    border-radius: 10px;
+    width: 320px;
+}
+
+.info_box h1 {
+    text-align: left;
+}
+
+#myBtn {
+    padding: 5px 100px;
+    background-color: navy;
+    border-radius: 10px;
+    color: #fff;
 }
